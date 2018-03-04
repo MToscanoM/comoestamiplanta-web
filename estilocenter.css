@@ -63,9 +63,8 @@ header {
 }
 
 .opciones{
- 
-  height: 360px;
-  width: 90%;
+  height: 350px;
+  width: 98%;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.66);
   margin-top: 20px;
@@ -75,14 +74,12 @@ header {
 .opcion {
   position: relative;
   float: left;
-  display: block;
-  width: 33%;
+  width: 31%;
   height: 300px;
   border: 3px solid rgba(0,0,0,0);
   border-radius: 10px;
   margin: 10px;
-  background-color: rgba(97, 93, 93, 0.384);
-  
+  background-color: rgb(250, 241, 241); 
 }
 .opcion p{
   margin-left: 10px;
@@ -93,18 +90,41 @@ header {
 }
 .opcion-icono p{
   position: absolute;
-  top:0px;
-  left: 17px;
+  top:-10px;
+  left: 10px;
   font-size: 40px;
 }
 .opcion-icono img{
   width: 96%;
   border-radius: 10px;
 }
-.opcion:hover{
-  border: 3px solid rgba(252, 252, 252, 0.5);
+.opcion a{
+  display: block;
+  width: 99%;
+  height: 99%;
+  position: absolute;
+  top:0;
+  left: 0;
+  background-color: rgba(220, 220, 220, 0.37);
+}
+.opcion a:hover{
+  
   transition-duration: 0.3s;
   cursor: pointer;
+  background-color: rgba(220, 220, 220, 0);
+  
+}
+footer{
+  position: relative;
+  height: 80px; 
+  background-color: rgba(0, 0, 0, 0.85);
+  
+}
+footer p{
+  position: absolute;
+  color: gainsboro;
+  top: 35%;
+  left: 20px;
 }
 /* .clicable li {
   float: left;
