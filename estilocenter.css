@@ -62,12 +62,32 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
 
-.zonaopciones{
+.opciones{
   height: 300px;
+  width: 90%;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.66);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
+.opcion {
+  float: left;
+  width: 33%;
+  position: relative;
+  height: 280px;
+  border-radius: 10px;
+  margin: 30px;
+}
+.opcion-icono{
+  
+}
+.opcion-icono p{
+  position: absolute;
+  top:5px;
+  left: 10px;
+  font-size: 40px;
+}
 /* .clicable li {
   float: left;
   display: block;
