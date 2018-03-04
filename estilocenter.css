@@ -45,14 +45,13 @@ header {
 }
 
 .progreso{
-  
   margin-top: 100px;
-
   font-size: 24px;
   padding: 70px;
   background: url(imagenes/desarrollo.jpg) ;
   background-size: cover;
   text-align: center;
+  
 }
 .progreso progress{ 
     background-color: rgba(94, 136, 3, 0.5);
@@ -63,7 +62,7 @@ header {
 }
 
 .opciones{
-  height: 350px;
+  height: 330px;
   width: 98%;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.66);
@@ -81,6 +80,7 @@ header {
   margin: 10px;
   background-color: rgb(250, 241, 241); 
 }
+ 
 .opcion p{
   margin-left: 10px;
 }
@@ -94,6 +94,7 @@ header {
   left: 10px;
   font-size: 40px;
 }
+
 .opcion-icono img{
   width: 96%;
   border-radius: 10px;
@@ -108,23 +109,20 @@ header {
   background-color: rgba(220, 220, 220, 0.37);
 }
 .opcion a:hover{
-  
   transition-duration: 0.3s;
   cursor: pointer;
   background-color: rgba(220, 220, 220, 0);
-  
 }
 footer{
-  position: relative;
+  margin-top: 20px;
   height: 80px; 
   background-color: rgba(0, 0, 0, 0.85);
   
 }
 footer p{
-  position: absolute;
   color: gainsboro;
-  top: 35%;
-  left: 20px;
+  padding: 20px;
+
 }
 /* .clicable li {
   float: left;
