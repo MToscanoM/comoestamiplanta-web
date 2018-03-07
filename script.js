@@ -7,3 +7,12 @@ function progreso (){
  }
  
 };
+
+/*$('.option').hover(
+    function(){
+        $('.opcion-icono').css(
+            {fontsize: 46 px;
+            transition: 0.3s;}
+        );
+    }
+);*/
