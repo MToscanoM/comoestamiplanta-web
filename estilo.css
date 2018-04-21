@@ -6,21 +6,20 @@
 
 body {
   margin: 0;
-    background: url(imagenes/fondoverde.jpg) no-repeat center fixed;
-    background-size: cover;
-    font-family: "Segoe UI", "Helvetica Neue",Helvetica,sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+  background: url(imagenes/fondoverde.jpg) no-repeat center fixed;
+  background-size: cover;
+  font-family: "Segoe UI", "Helvetica Neue",Helvetica,sans-serif;
+
 }
 header {
   top:0;
   left:0;
   position: fixed;
-    width: 100%;
-    height: 75px;
-    background-color: rgba(0, 0, 0, 0.80);
-    color: whitesmoke; 
-    z-index: 10;
+  width: 100%;
+  height: 75px;
+  background-color: rgba(0, 0, 0, 0.80);
+  color: whitesmoke; 
+  z-index: 10;
 }
 
 .logo {
@@ -58,78 +57,35 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
 
-.container{
-  
-  margin-top: 15px;
-  width: 80%;
-  
+.card-deck{
+  margin-top:15px;
 }
-
 .card {
   height: 280px;
   border-radius: 10px;
-  margin: 10px;
   transition-duration: 0.2s;
 } 
+.card img{
+  margin: 4px;
+  transform: scale(0.95, 0.95);
+  border-radius: 10px;
+}
+
 .card-title {
   top:5px;
   left: 10px;
   font-size: 40px;
-  color:black;
 }
-.card p{
-  top: 5px;
-  left: 10px;
-}
+
 .card:hover{
   cursor: pointer;
   transition-duration: 0.2s;
   transform: scale(1.03,1.03);
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-}
-.card img{
-  margin: 10px;
-  border-radius: 10px;
+  color: black;
 }
 
 
-.opcion a:hover,a:focus{
-  transition-duration: 0.2s;
-  
-  background-color: rgba(220, 220, 220, 0);
-  
-
-
-/* .clicable li {
-  float: left;
-  display: block;
-  width: 220px;
-  background-color: rgba(96, 136, 3, 0.5);
-  border: 3px solid rgba(252, 252, 252, 0.5);
-  border-radius: 6px;
-  transition-duration: 0.3s;
-} */
-
-/*.clicable a{
-  color: whitesmoke;
-  text-decoration: none;
-}*/
-
-/* .clicable li:hover, li:focus{
-  background-color: rgba(96, 136, 3, 1);
-  color: white;
-  border: 3px solid white;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-} */
-
-
-/*img {border: 3px solid rgba(250, 250, 250, 0.6);
-    border-radius: 6px;
-    
-}
-*/
 form {
     background-color: rgba(0,0,0,0.66);
 		width: 400px;
