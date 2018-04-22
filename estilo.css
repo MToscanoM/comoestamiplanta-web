@@ -18,7 +18,6 @@ header {
   width: 100%;
   height: 75px;
   background-color: rgba(0, 0, 0, 0.80);
-  color: whitesmoke; 
   z-index: 10;
 }
 
@@ -38,6 +37,8 @@ header {
   -moz-transition-duration: 1s;
 }
 .textologo{
+  font-family: 'Cabin Sketch';
+  color: #99CD32;
   display: block;
   float: left;
   padding-top: 15px;
@@ -45,8 +46,12 @@ header {
 }
 
 .carousel-inner{
+  max-width: 95%;
+  margin: auto;
   margin-top: 80px;
   border-radius: 10px;
+  border: 3px solid rgba(250, 250, 250, 0.6);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
   height: 250px;
 }
 .progreso { 
@@ -58,20 +63,25 @@ header {
 }
 
 .card-deck{
+  max-width: 95%;
+  margin: auto;
   margin-top:15px;
 }
 .card {
-  height: 280px;
+  margin:5px;
   border-radius: 10px;
+  border: 3px solid rgba(250, 250, 250, 0.6);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
   transition-duration: 0.2s;
 } 
 .card img{
-  margin: 4px;
   transform: scale(0.95, 0.95);
   border-radius: 10px;
 }
 
 .card-title {
+  font-family: 'Cabin Sketch';
+  color: green;
   top:5px;
   left: 10px;
   font-size: 40px;
