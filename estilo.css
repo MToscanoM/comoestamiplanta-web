@@ -4,14 +4,8 @@
 .color-primary-3 { color: #7AAC16 }
 .color-primary-4 { color: #5C8803 }
 
-html {
-  min-height: 100%;
-  position: relative;
-}
-
 body {
   margin: 0;
-  margin-bottom: 60px;
   background: url(imagenes/fondoverde.jpg) no-repeat center fixed;
   background-size: cover;
   font-family: "Segoe UI", "Helvetica Neue",Helvetica,sans-serif;
@@ -89,14 +83,7 @@ nav {
   color: black;
 }
 
-footer {
-  background-color: rgba(0, 0, 0, 0.80);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  color: white;
-}
+
 form {
     background-color: rgba(0,0,0,0.66);
 		width: 400px;
