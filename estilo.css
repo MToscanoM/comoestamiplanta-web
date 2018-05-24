@@ -4,6 +4,13 @@
 .color-primary-3 { color: #7AAC16 }
 .color-primary-4 { color: #5C8803 }
 
+@media (max-width: 575.98px) {
+  .logo p{
+    
+    font-size: 12px;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -28,7 +35,6 @@ header {
  
 }
 .logo img{
-  
   transform: scale(0.50);
   -ms-transform: scale(0.50);
   -webkit-transform: scale(0.50);
@@ -37,11 +43,9 @@ header {
   -webkit-transition-duration: 1s;
   -moz-transition-duration: 1s;
 }
-.textologo{
+.logo p{
   font-family: 'Cabin Sketch';
   color: #99CD32;
-  display: block;
-  float: left;
   padding-top: 15px;
   font-size: 36px;
 }
@@ -100,4 +104,8 @@ footer{
   width: 100%;
   height: 75px;
   background-color: rgba(0, 0, 0, 0.80);
+  color: #7AAC16;
+}
+footer p{
+  padding-top: 15px;
 }
