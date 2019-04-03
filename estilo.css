@@ -36,7 +36,6 @@ header {
 }
 
 .logo span{
-  font-family: 'Nunito';
   margin-left: -22px;
   color: #99CD32;
   font-size: 18px;
@@ -101,7 +100,7 @@ footer{
   color: #7AAC16;
 }
 
-footer p{
+footer h4{
   padding-top: 15px;
 }
 
