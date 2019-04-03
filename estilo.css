@@ -98,9 +98,10 @@ footer{
   position: fixed;
   background-color: rgba(0, 0, 0, 0.80);
   color: #7AAC16;
+  font-size: 14px;
 }
 
-footer h4{
+footer h5{
   padding-top: 15px;
 }
 
